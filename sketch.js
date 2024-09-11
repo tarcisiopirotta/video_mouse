@@ -3,7 +3,8 @@
 let video;
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  video = createVideo(['https://tarcisiopirotta.github.io/video_mouse/data/video.mp4']);  // Asegúrate de que el archivo de video está en la misma carpeta o proporciona la URL correcta
+  //si hacen una version nueva del video y es .mp4, cambiar el nombre en la linea de  (recordar nomas de 25MB el video)
+  video = createVideo(['https://tarcisiopirotta.github.io/video_mouse/data/video.mov']);  // Asegúrate de que el archivo de video está en la misma carpeta o proporciona la URL correcta
   video.hide(); // Oculta el elemento de video HTML
 }
 
