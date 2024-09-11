@@ -27,6 +27,10 @@ function mousePressed() {
     //fullscreen(true);  // Hacer pantalla completa
   
 }
+function touchStarted() {
+     video.loop();  // Reproducir el video en bucle
+    //fullscreen(true);  // Hacer pantalla completa
+}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
